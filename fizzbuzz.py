@@ -50,10 +50,10 @@ buzz=int(input("For multiples of what number shall we print 'Buzz'? "))
 
 for x in range(1,number+1):
     if x/fizz == int(x/fizz) and x/buzz == int(x/buzz):
-        print("fizzbuzz")
+        print("FizzBuzz")
     elif x/fizz == int(x/fizz):
-        print("fizz")
+        print("Fizz")
     elif x/buzz == int(x/buzz):
-        print("buzz")
+        print("Buzz")
     else:
         print(x)
