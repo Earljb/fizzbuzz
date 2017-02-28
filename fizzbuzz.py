@@ -49,8 +49,6 @@ fizz=int(input("For multiples of what number shall we print 'Fizz'? "))
 buzz=int(input("For multiples of what number shall we print 'Buzz'? "))
 
 for x in range(1,number+1):
-    #print(int(x/3))
-    #print(x/3)
     if x/fizz == int(x/fizz) and x/buzz == int(x/buzz):
         print("fizzbuzz")
     elif x/fizz == int(x/fizz):
